@@ -1,0 +1,1 @@
+This repository demonstrates a common but tricky CSS bug related to specificity. Two selectors have the same weight, causing unpredictable styling. The solution shows how to resolve this by carefully adjusting selector specificity.
