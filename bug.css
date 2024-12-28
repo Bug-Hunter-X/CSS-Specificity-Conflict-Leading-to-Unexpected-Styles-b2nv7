@@ -1,0 +1,1 @@
+The CSS code has a specificity issue.  Two or more selectors have equal specificity, leading to unexpected styling behavior. This is difficult to debug because the browser's cascade rules don't always make it obvious which selector wins.
