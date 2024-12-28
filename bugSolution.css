@@ -1,0 +1,14 @@
+/* Solution: Increase the specificity of the more important selector. */
+
+#myElement {
+  color: blue;
+}
+
+.myClass #myElement {
+  color: red !important; /*Using !important as last resort, ideally refactor for better specificity*/
+}
+
+/* Better Solution: Refactor for better specificity, avoiding the need for !important*/
+#myElement.myClass{
+  color: red;
+}
